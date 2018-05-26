@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BACED8E20B9468F00C80982 /* CommonSuperFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BACED8D20B9468F00C80982 /* CommonSuperFind.m */; };
+		6BACED9120B94D1200C80982 /* HashFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BACED9020B94D1200C80982 /* HashFind.m */; };
+		6BACED9420B95DAF00C80982 /* MedianFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BACED9320B95DAF00C80982 /* MedianFind.m */; };
 		9EE5A83A20B85BFD00FBF871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A83920B85BFD00FBF871 /* AppDelegate.m */; };
 		9EE5A83D20B85BFD00FBF871 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A83C20B85BFD00FBF871 /* ViewController.m */; };
 		9EE5A84020B85BFD00FBF871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5A83E20B85BFD00FBF871 /* Main.storyboard */; };
@@ -19,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BACED8C20B9468F00C80982 /* CommonSuperFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSuperFind.h; sourceTree = "<group>"; };
+		6BACED8D20B9468F00C80982 /* CommonSuperFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSuperFind.m; sourceTree = "<group>"; };
+		6BACED8F20B94D1200C80982 /* HashFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashFind.h; sourceTree = "<group>"; };
+		6BACED9020B94D1200C80982 /* HashFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashFind.m; sourceTree = "<group>"; };
+		6BACED9220B95DAF00C80982 /* MedianFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedianFind.h; sourceTree = "<group>"; };
+		6BACED9320B95DAF00C80982 /* MedianFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedianFind.m; sourceTree = "<group>"; };
 		9EE5A83520B85BFD00FBF871 /* LLAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE5A83820B85BFD00FBF871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EE5A83920B85BFD00FBF871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,8 +84,14 @@
 				9EE5A84F20B85C1E00FBF871 /* CharReverse.m */,
 				9EE5A85120B85E3900FBF871 /* ReverseList.h */,
 				9EE5A85220B85E3900FBF871 /* ReverseList.m */,
+				6BACED8C20B9468F00C80982 /* CommonSuperFind.h */,
+				6BACED8D20B9468F00C80982 /* CommonSuperFind.m */,
+				6BACED8F20B94D1200C80982 /* HashFind.h */,
+				6BACED9020B94D1200C80982 /* HashFind.m */,
 				9EE5A85420B8652D00FBF871 /* MergeSortedList.h */,
 				9EE5A85520B8652D00FBF871 /* MergeSortedList.m */,
+				6BACED9220B95DAF00C80982 /* MedianFind.h */,
+				6BACED9320B95DAF00C80982 /* MedianFind.m */,
 				9EE5A83E20B85BFD00FBF871 /* Main.storyboard */,
 				9EE5A84120B85BFF00FBF871 /* Assets.xcassets */,
 				9EE5A84320B85BFF00FBF871 /* LaunchScreen.storyboard */,
@@ -156,10 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BACED9420B95DAF00C80982 /* MedianFind.m in Sources */,
 				9EE5A83D20B85BFD00FBF871 /* ViewController.m in Sources */,
 				9EE5A84820B85BFF00FBF871 /* main.m in Sources */,
+				6BACED9120B94D1200C80982 /* HashFind.m in Sources */,
 				9EE5A85020B85C1E00FBF871 /* CharReverse.m in Sources */,
 				9EE5A85320B85E3900FBF871 /* ReverseList.m in Sources */,
+				6BACED8E20B9468F00C80982 /* CommonSuperFind.m in Sources */,
 				9EE5A83A20B85BFD00FBF871 /* AppDelegate.m in Sources */,
 				9EE5A85620B8652D00FBF871 /* MergeSortedList.m in Sources */,
 			);
@@ -302,7 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
 				INFOPLIST_FILE = LLAlgorithm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +338,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
 				INFOPLIST_FILE = LLAlgorithm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

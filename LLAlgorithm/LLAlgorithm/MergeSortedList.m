@@ -9,7 +9,7 @@
 #import "MergeSortedList.h"
 
 @implementation MergeSortedList
-
+//两个有序数组合并
 void mergeList(int a[],int aLen,int b[],int bLen,int result[])
 {
     int p = 0;

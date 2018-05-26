@@ -10,8 +10,13 @@
 #import "CharReverse.h"
 #import "ReverseList.h"
 #import "MergeSortedList.h"
+#import "CommonSuperFind.h"
+#import "HashFind.h"
+#import "MedianFind.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *oneView;//1000
+@property (weak, nonatomic) IBOutlet UIView *otherView;//1001
 
 @end
 
@@ -40,6 +45,20 @@
     for (int i = 0; i < 13; i++){
         printf("merge list result : %tu \n",result[i]);
     }
+    
+    NSArray<UIView *> *arr = [[CommonSuperFind new] findCommonSuperView:self.oneView other:self.otherView];
+    [arr enumerateObjectsUsingBlock:^(UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSLog(@"tag=%tu==%@==",obj.tag,obj.accessibilityLabel);
+    }];
+    
+    char chs[] = "fabcabcd";
+    char firstChar = findFirstChar(chs);
+    printf("first char :%c\n",firstChar);
+    
+    
+    int array[] = {1,4,5,6,10,3,8,7,9,2,11};
+    int mid = findMedian(array, 11);
+    printf("median = %tu",mid);
 }
 
 

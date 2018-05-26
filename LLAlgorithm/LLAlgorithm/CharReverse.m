@@ -15,7 +15,7 @@ void charReverse(char *chars)
 {
     char *headPoint = chars;
     char *endPoint = chars + strlen(chars) - 1;
-    while (headPoint <= endPoint) {
+    while (headPoint < endPoint) {
         char temp = *headPoint;
         *(headPoint++) = *endPoint;
         *(endPoint--) = temp;
