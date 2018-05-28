@@ -36,6 +36,7 @@ struct Node *constructList(void){
     for (int i = 0; i < 5; i++){
         struct Node *node = malloc(sizeof(struct Node));
         node->data = i;
+        node->next = NULL;
         //设置头结点
         if (head == NULL) {
             head = node;
