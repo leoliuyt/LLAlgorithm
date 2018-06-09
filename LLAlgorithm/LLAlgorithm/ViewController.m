@@ -13,6 +13,13 @@
 #import "CommonSuperFind.h"
 #import "HashFind.h"
 #import "MedianFind.h"
+#import "BubbleSort.h"
+#import "QuickSort.h"
+#import "InsertSort.h"
+#import "ShellSort.h"
+#import "SelectSort.h"
+#import "HeapSort.h"
+#import "MergeSort.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *oneView;//1000
@@ -24,6 +31,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self testMergeSort];
+}
+
+- (void)test
+{
     char ch[] = "hello,world!";
     charReverse(ch);
     printf("reverse result is : %s\n",ch);
@@ -61,6 +73,56 @@
     printf("median = %tu",mid);
 }
 
+- (void)testBubbleSort
+{
+    int arr[] = {5,9,7,4,10,12,3,6,1};
+    bubbleSort(arr, 9);
+}
+
+- (void)testQuickSort
+{
+    int arr[] = {5,9,7,4,10,12,3,6,1,8};
+    int n = sizeof(arr) / sizeof(int);
+    printQuickSort(arr, n, 0);
+    quickSort(arr, 0, n-1);
+}
+
+- (void)testInsertSort
+{
+    int arr[] = {5,9,7,4,10,12,3,6,1,8};
+    int n = sizeof(arr) / sizeof(int);
+//    printQuickSort(arr, n, 0);
+    insertSort(arr,n);
+}
+
+- (void)testShellSort
+{
+    int arr[] = {5,9,7,4,10,12,3,6,1,8};
+    int n = sizeof(arr) / sizeof(int);
+    //    printQuickSort(arr, n, 0);
+    shellSort(arr,n);
+}
+
+- (void)testSelectSort
+{
+    int arr[] = {5,9,7,4,10,12,3,6,1,8};
+    int n = sizeof(arr) / sizeof(int);
+    selectSort(arr,n);
+}
+
+- (void)testHeapSort
+{
+    int arr[] = {5,9,7,4,10,12,3,6,1,8};
+    int n = sizeof(arr) / sizeof(int);
+    heapSort(arr,n);
+}
+
+- (void)testMergeSort
+{
+    int arr[] = {5,9,7,4,10,12,3,6,1,8};
+    int n = sizeof(arr) / sizeof(int);
+    mergeSort(arr, 0, n-1);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

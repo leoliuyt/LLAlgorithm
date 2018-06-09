@@ -10,6 +10,13 @@
 		6BACED8E20B9468F00C80982 /* CommonSuperFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BACED8D20B9468F00C80982 /* CommonSuperFind.m */; };
 		6BACED9120B94D1200C80982 /* HashFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BACED9020B94D1200C80982 /* HashFind.m */; };
 		6BACED9420B95DAF00C80982 /* MedianFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BACED9320B95DAF00C80982 /* MedianFind.m */; };
+		6BF18D9D20CB6B3B00CFDCA0 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18D9C20CB6B3B00CFDCA0 /* BubbleSort.m */; };
+		6BF18DA020CB80F900CFDCA0 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18D9F20CB80F900CFDCA0 /* QuickSort.m */; };
+		6BF18DA320CB89C100CFDCA0 /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DA220CB89C100CFDCA0 /* InsertSort.m */; };
+		6BF18DA620CBB7A500CFDCA0 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DA520CBB7A500CFDCA0 /* ShellSort.m */; };
+		6BF18DA920CBC2E000CFDCA0 /* SelectSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DA820CBC2E000CFDCA0 /* SelectSort.m */; };
+		6BF18DAC20CBCA3100CFDCA0 /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DAB20CBCA3100CFDCA0 /* HeapSort.m */; };
+		6BF18DAF20CBD73D00CFDCA0 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF18DAE20CBD73D00CFDCA0 /* MergeSort.m */; };
 		9EE5A83A20B85BFD00FBF871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A83920B85BFD00FBF871 /* AppDelegate.m */; };
 		9EE5A83D20B85BFD00FBF871 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A83C20B85BFD00FBF871 /* ViewController.m */; };
 		9EE5A84020B85BFD00FBF871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5A83E20B85BFD00FBF871 /* Main.storyboard */; };
@@ -28,6 +35,20 @@
 		6BACED9020B94D1200C80982 /* HashFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashFind.m; sourceTree = "<group>"; };
 		6BACED9220B95DAF00C80982 /* MedianFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedianFind.h; sourceTree = "<group>"; };
 		6BACED9320B95DAF00C80982 /* MedianFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedianFind.m; sourceTree = "<group>"; };
+		6BF18D9B20CB6B3B00CFDCA0 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		6BF18D9C20CB6B3B00CFDCA0 /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		6BF18D9E20CB80F900CFDCA0 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		6BF18D9F20CB80F900CFDCA0 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		6BF18DA120CB89C100CFDCA0 /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		6BF18DA220CB89C100CFDCA0 /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
+		6BF18DA420CBB7A500CFDCA0 /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		6BF18DA520CBB7A500CFDCA0 /* ShellSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
+		6BF18DA720CBC2E000CFDCA0 /* SelectSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectSort.h; sourceTree = "<group>"; };
+		6BF18DA820CBC2E000CFDCA0 /* SelectSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectSort.m; sourceTree = "<group>"; };
+		6BF18DAA20CBCA3100CFDCA0 /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		6BF18DAB20CBCA3100CFDCA0 /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
+		6BF18DAD20CBD73D00CFDCA0 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		6BF18DAE20CBD73D00CFDCA0 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		9EE5A83520B85BFD00FBF871 /* LLAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE5A83820B85BFD00FBF871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EE5A83920B85BFD00FBF871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +78,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BF18D9720CB6AF900CFDCA0 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				6BF18D9B20CB6B3B00CFDCA0 /* BubbleSort.h */,
+				6BF18D9C20CB6B3B00CFDCA0 /* BubbleSort.m */,
+				6BF18D9E20CB80F900CFDCA0 /* QuickSort.h */,
+				6BF18D9F20CB80F900CFDCA0 /* QuickSort.m */,
+				6BF18DA120CB89C100CFDCA0 /* InsertSort.h */,
+				6BF18DA220CB89C100CFDCA0 /* InsertSort.m */,
+				6BF18DA420CBB7A500CFDCA0 /* ShellSort.h */,
+				6BF18DA520CBB7A500CFDCA0 /* ShellSort.m */,
+				6BF18DA720CBC2E000CFDCA0 /* SelectSort.h */,
+				6BF18DA820CBC2E000CFDCA0 /* SelectSort.m */,
+				6BF18DAA20CBCA3100CFDCA0 /* HeapSort.h */,
+				6BF18DAB20CBCA3100CFDCA0 /* HeapSort.m */,
+				6BF18DAD20CBD73D00CFDCA0 /* MergeSort.h */,
+				6BF18DAE20CBD73D00CFDCA0 /* MergeSort.m */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		9EE5A82C20B85BFC00FBF871 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +118,7 @@
 		9EE5A83720B85BFD00FBF871 /* LLAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				6BF18D9720CB6AF900CFDCA0 /* Sort */,
 				9EE5A83820B85BFD00FBF871 /* AppDelegate.h */,
 				9EE5A83920B85BFD00FBF871 /* AppDelegate.m */,
 				9EE5A83B20B85BFD00FBF871 /* ViewController.h */,
@@ -175,10 +218,17 @@
 				9EE5A83D20B85BFD00FBF871 /* ViewController.m in Sources */,
 				9EE5A84820B85BFF00FBF871 /* main.m in Sources */,
 				6BACED9120B94D1200C80982 /* HashFind.m in Sources */,
+				6BF18DA320CB89C100CFDCA0 /* InsertSort.m in Sources */,
 				9EE5A85020B85C1E00FBF871 /* CharReverse.m in Sources */,
+				6BF18DAC20CBCA3100CFDCA0 /* HeapSort.m in Sources */,
+				6BF18DA620CBB7A500CFDCA0 /* ShellSort.m in Sources */,
 				9EE5A85320B85E3900FBF871 /* ReverseList.m in Sources */,
 				6BACED8E20B9468F00C80982 /* CommonSuperFind.m in Sources */,
+				6BF18DA920CBC2E000CFDCA0 /* SelectSort.m in Sources */,
+				6BF18DA020CB80F900CFDCA0 /* QuickSort.m in Sources */,
+				6BF18D9D20CB6B3B00CFDCA0 /* BubbleSort.m in Sources */,
 				9EE5A83A20B85BFD00FBF871 /* AppDelegate.m in Sources */,
+				6BF18DAF20CBD73D00CFDCA0 /* MergeSort.m in Sources */,
 				9EE5A85620B8652D00FBF871 /* MergeSortedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
