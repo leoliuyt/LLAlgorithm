@@ -39,7 +39,7 @@ void quickSort(int *a, int left, int right){
     if(left >= right){return;}
     int mid = partion(a, left, right);
     quickSort(a, left, mid - 1);
-    quickSort(a, mid+1, right);
+    quickSort(a, mid + 1, right);
 }
 
 void printQuickSort(int *arr ,int count,int n){

@@ -26,6 +26,7 @@
 		9EE5A85020B85C1E00FBF871 /* CharReverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A84F20B85C1E00FBF871 /* CharReverse.m */; };
 		9EE5A85320B85E3900FBF871 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A85220B85E3900FBF871 /* ReverseList.m */; };
 		9EE5A85620B8652D00FBF871 /* MergeSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A85520B8652D00FBF871 /* MergeSortedList.m */; };
+		9EE5A8AB20CCD45A00FBF871 /* BitTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5A8AA20CCD45A00FBF871 /* BitTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		9EE5A85220B85E3900FBF871 /* ReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList.m; sourceTree = "<group>"; };
 		9EE5A85420B8652D00FBF871 /* MergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSortedList.h; sourceTree = "<group>"; };
 		9EE5A85520B8652D00FBF871 /* MergeSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSortedList.m; sourceTree = "<group>"; };
+		9EE5A8A920CCD45A00FBF871 /* BitTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitTree.h; sourceTree = "<group>"; };
+		9EE5A8AA20CCD45A00FBF871 /* BitTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 		9EE5A83720B85BFD00FBF871 /* LLAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				9EE5A8A820CCD43F00FBF871 /* Struct */,
 				6BF18D9720CB6AF900CFDCA0 /* Sort */,
 				9EE5A83820B85BFD00FBF871 /* AppDelegate.h */,
 				9EE5A83920B85BFD00FBF871 /* AppDelegate.m */,
@@ -142,6 +146,15 @@
 				9EE5A84720B85BFF00FBF871 /* main.m */,
 			);
 			path = LLAlgorithm;
+			sourceTree = "<group>";
+		};
+		9EE5A8A820CCD43F00FBF871 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5A8A920CCD45A00FBF871 /* BitTree.h */,
+				9EE5A8AA20CCD45A00FBF871 /* BitTree.m */,
+			);
+			path = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +236,7 @@
 				6BF18DAC20CBCA3100CFDCA0 /* HeapSort.m in Sources */,
 				6BF18DA620CBB7A500CFDCA0 /* ShellSort.m in Sources */,
 				9EE5A85320B85E3900FBF871 /* ReverseList.m in Sources */,
+				9EE5A8AB20CCD45A00FBF871 /* BitTree.m in Sources */,
 				6BACED8E20B9468F00C80982 /* CommonSuperFind.m in Sources */,
 				6BF18DA920CBC2E000CFDCA0 /* SelectSort.m in Sources */,
 				6BF18DA020CB80F900CFDCA0 /* QuickSort.m in Sources */,
