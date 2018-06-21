@@ -13,6 +13,11 @@ typedef struct TreeNode{
     struct TreeNode * right;
 }TreeNode;
 
+typedef struct LinkNode{
+    int data;
+    struct LinkNode * next;
+}LinkNode;
+
 
 @interface BitTree : NSObject
 TreeNode * creatBTree(int data[], int index, int n);
